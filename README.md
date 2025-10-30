@@ -1,1 +1,1 @@
-# NLP-Final-Project-Exploring-Contronym-Bias-in-LMs
+# NLP-Final-Project-Exploring-Homonym-Bias-in-LMs
