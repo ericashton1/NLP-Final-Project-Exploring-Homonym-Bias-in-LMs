@@ -10,7 +10,7 @@ def generate_homonymic_df(sentences: dict):
         words = original_sentence.split()
         original_word = words[roi_index]
         
-        # Original (expected)
+        # Original
         all_rows.append({
             "sentid": sentid,
             "pairid": pairid,
@@ -20,7 +20,7 @@ def generate_homonymic_df(sentences: dict):
         })
         sentid += 1
         
-        # Homonymic (unexpected)
+        # Homonymic
         homonymic_words = words.copy()
         homonymic_words[roi_index] = homonymic
         all_rows.append({
@@ -51,7 +51,7 @@ def generate_monosemic_df(sentences: dict):
         words = original_sentence.split()
         original_word = words[roi_index]
         
-        # Original (expected)
+        # Original
         all_rows.append({
             "sentid": sentid,
             "pairid": pairid,
@@ -61,7 +61,7 @@ def generate_monosemic_df(sentences: dict):
         })
         sentid += 1
         
-        # Monosemic (unexpected)
+        # Monosemic
         monosemic_words = words.copy()
         monosemic_words[roi_index] = monosemic
         all_rows.append({
@@ -106,11 +106,9 @@ def main():
         "Scientists must verify their results through repeated testing.": ["confirm", "check", 2]  
     }
     
-    # Generate two separate dataframes
     df_homonymic = generate_homonymic_df(sentences)
     df_monosemic = generate_monosemic_df(sentences)
     
-    # Save to separate files
     df_homonymic.to_csv("data/min_pair_homo_toy.tsv", sep='\t', index=False)
     df_monosemic.to_csv("data/minimal_pair_mono_toy.tsv", sep='\t', index=False)
     
