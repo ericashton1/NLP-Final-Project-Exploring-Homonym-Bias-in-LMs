@@ -1,0 +1,21 @@
+sentid	pairid	comparison	sentence	ROI
+1	1	expected	The family decided to donate money to the local food bank.	4
+2	1	unexpected	The family decided to contribute money to the local food bank.	4
+3	2	expected	She needs to purchase new equipment for the laboratory.	3
+4	2	unexpected	She needs to acquire new equipment for the laboratory.	3
+5	3	expected	The company plans to eliminate unnecessary expenses from the budget.	4
+6	3	unexpected	The company plans to remove unnecessary expenses from the budget.	4
+7	4	expected	The workers will fabricate metal parts for the new machinery.	3
+8	4	unexpected	The workers will manufacture metal parts for the new machinery.	3
+9	5	expected	Students should inquire about scholarship opportunities before applying.	2
+10	5	unexpected	Students should ask about scholarship opportunities before applying.	2
+11	6	expected	Please notify the supervisor immediately if problems arise.	1
+12	6	unexpected	Please inform the supervisor immediately if problems arise.	1
+13	7	expected	The rules prohibit smoking inside the building at all times.	2
+14	7	unexpected	The rules forbid smoking inside the building at all times.	2
+15	8	expected	The museum will retain all original documents in the archive.	3
+16	8	unexpected	The museum will keep all original documents in the archive.	3
+17	9	expected	The manager decided to terminate the contract with the vendor.	4
+18	9	unexpected	The manager decided to end the contract with the vendor.	4
+19	10	expected	Scientists must verify their results through repeated testing.	2
+20	10	unexpected	Scientists must confirm their results through repeated testing.	2
