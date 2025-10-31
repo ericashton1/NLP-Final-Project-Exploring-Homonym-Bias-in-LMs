@@ -1,0 +1,41 @@
+sentid	pairid	word_type	comparison	sentence	ROI
+1	1	original	expected	The family decided to donate money to the local food bank.	4
+2	1	homonymic	unexpected	The family decided to present money to the local food bank.	4
+3	2	original	expected	The family decided to donate money to the local food bank.	4
+4	2	monosemic	unexpected	The family decided to contribute money to the local food bank.	4
+5	3	original	expected	She needs to purchase new equipment for the laboratory.	3
+6	3	homonymic	unexpected	She needs to secure new equipment for the laboratory.	3
+7	4	original	expected	She needs to purchase new equipment for the laboratory.	3
+8	4	monosemic	unexpected	She needs to acquire new equipment for the laboratory.	3
+9	5	original	expected	The company plans to eliminate unnecessary expenses from the budget.	4
+10	5	homonymic	unexpected	The company plans to cut unnecessary expenses from the budget.	4
+11	6	original	expected	The company plans to eliminate unnecessary expenses from the budget.	4
+12	6	monosemic	unexpected	The company plans to remove unnecessary expenses from the budget.	4
+13	7	original	expected	The workers will fabricate metal parts for the new machinery.	3
+14	7	homonymic	unexpected	The workers will forge metal parts for the new machinery.	3
+15	8	original	expected	The workers will fabricate metal parts for the new machinery.	3
+16	8	monosemic	unexpected	The workers will manufacture metal parts for the new machinery.	3
+17	9	original	expected	Students should inquire about scholarship opportunities before applying.	2
+18	9	homonymic	unexpected	Students should question about scholarship opportunities before applying.	2
+19	10	original	expected	Students should inquire about scholarship opportunities before applying.	2
+20	10	monosemic	unexpected	Students should ask about scholarship opportunities before applying.	2
+21	11	original	expected	Please notify the supervisor immediately if problems arise.	1
+22	11	homonymic	unexpected	Please alert the supervisor immediately if problems arise.	1
+23	12	original	expected	Please notify the supervisor immediately if problems arise.	1
+24	12	monosemic	unexpected	Please inform the supervisor immediately if problems arise.	1
+25	13	original	expected	The rules prohibit smoking inside the building at all times.	2
+26	13	homonymic	unexpected	The rules bar smoking inside the building at all times.	2
+27	14	original	expected	The rules prohibit smoking inside the building at all times.	2
+28	14	monosemic	unexpected	The rules forbid smoking inside the building at all times.	2
+29	15	original	expected	The museum will retain all original documents in the archive.	3
+30	15	homonymic	unexpected	The museum will hold all original documents in the archive.	3
+31	16	original	expected	The museum will retain all original documents in the archive.	3
+32	16	monosemic	unexpected	The museum will keep all original documents in the archive.	3
+33	17	original	expected	The manager decided to terminate the contract with the vendor.	4
+34	17	homonymic	unexpected	The manager decided to close the contract with the vendor.	4
+35	18	original	expected	The manager decided to terminate the contract with the vendor.	4
+36	18	monosemic	unexpected	The manager decided to end the contract with the vendor.	4
+37	19	original	expected	Scientists must verify their results through repeated testing.	2
+38	19	homonymic	unexpected	Scientists must check their results through repeated testing.	2
+39	20	original	expected	Scientists must verify their results through repeated testing.	2
+40	20	monosemic	unexpected	Scientists must confirm their results through repeated testing.	2

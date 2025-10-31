@@ -1,0 +1,19 @@
+exp: MinimalPair
+
+mode: 
+    - evaluate
+    - analyze
+
+models:
+    hf_causal_model:
+      - distilbert/distilgpt2
+
+predfpath: ../cosc426/Final/predictions/homo_predictions.tsv
+
+datafpath: ../cosc426/Final/data/min_pair_homo_toy.tsv
+
+resultsfpath: ../cosc426/Final/results/homo_results.tsv
+
+save: by_cond
+
+conditions: word_type
