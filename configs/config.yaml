@@ -1,0 +1,17 @@
+exp: MinimalPair
+
+mode:
+    - evaluate
+    - analyze
+
+models:
+    hf_causal_model:
+      - distilbert/distilgpt2
+
+datafpath: ../cosc426/final/minimal_pairs_tsvs/homonym_minimal_pairs.tsv
+
+predfpath: ../cosc426/final/predictions/homonym_minimal_pairs.tsv
+
+resultsfpath: ../cosc426/final/results/homonym_minimal_pairs.tsv
+
+save: by_word
