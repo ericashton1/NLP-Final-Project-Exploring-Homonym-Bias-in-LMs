@@ -1,0 +1,205 @@
+sentid	pairid	condition	comparison	sentence	ROI
+1	1	hard_meaning1_syn1	expected	The rock was too hard to break with a hammer.	4
+2	1	hard_meaning1_syn1	unexpected	The rock was too solid to break with a hammer.	4
+3	2	hard_meaning1_syn1	expected	The ground was hard after the long drought.	3
+4	2	hard_meaning1_syn1	unexpected	The ground was solid after the long drought.	3
+5	3	hard_meaning1_syn1	expected	The frozen soil felt hard underfoot.	4
+6	3	hard_meaning1_syn1	unexpected	The frozen soil felt solid underfoot.	4
+7	4	hard_meaning1_syn1	expected	The wood was hard and difficult to cut.	3
+8	4	hard_meaning1_syn1	unexpected	The wood was solid and difficult to cut.	3
+9	5	hard_meaning1_syn1	expected	Diamond is a really hard material.	4
+10	5	hard_meaning1_syn1	unexpected	Diamond is a really solid material.	4
+11	6	hard_meaning1_syn2	expected	The rock was too hard to break with a hammer.	4
+12	6	hard_meaning1_syn2	unexpected	The rock was too dense to break with a hammer.	4
+13	7	hard_meaning1_syn2	expected	The ground was hard after the long drought.	3
+14	7	hard_meaning1_syn2	unexpected	The ground was dense after the long drought.	3
+15	8	hard_meaning1_syn2	expected	The frozen soil felt hard underfoot.	4
+16	8	hard_meaning1_syn2	unexpected	The frozen soil felt dense underfoot.	4
+17	9	hard_meaning1_syn2	expected	The wood was hard and difficult to cut.	3
+18	9	hard_meaning1_syn2	unexpected	The wood was dense and difficult to cut.	3
+19	10	hard_meaning1_syn2	expected	Diamond is a really hard material.	4
+20	10	hard_meaning1_syn2	unexpected	Diamond is a really dense material.	4
+21	11	hard_meaning2_syn1	expected	It’s hard to learn a new language as an adult.	1
+22	11	hard_meaning2_syn1	unexpected	It’s difficult to learn a new language as an adult.	1
+23	12	hard_meaning2_syn1	expected	The hike was hard but rewarding.	3
+24	12	hard_meaning2_syn1	unexpected	The hike was difficult but rewarding.	3
+25	13	hard_meaning2_syn1	expected	Finishing the project on time was hard.	6
+26	13	hard_meaning2_syn1	unexpected	Finishing the project on time was difficult	6
+27	14	hard_meaning2_syn1	expected	Solving that problem was really hard for me.	5
+28	14	hard_meaning2_syn1	unexpected	Solving that problem was really difficult for me.	5
+29	15	hard_meaning2_syn2	expected	It’s hard to learn a new language as an adult.	1
+30	15	hard_meaning2_syn2	unexpected	It’s strenuous to learn a new language as an adult.	1
+31	16	hard_meaning2_syn2	expected	The hike was hard but rewarding.	3
+32	16	hard_meaning2_syn2	unexpected	The hike was strenuous but rewarding.	3
+33	17	hard_meaning2_syn2	expected	Finishing the project on time was hard.	6
+34	17	hard_meaning2_syn2	unexpected	Finishing the project on time was strenuous	6
+35	18	hard_meaning2_syn2	expected	Solving that problem was really hard for me.	5
+36	18	hard_meaning2_syn2	unexpected	Solving that problem was really strenuous for me.	5
+37	19	cover_meaning1_syn1	expected	She used an umbrella to cover herself from the rain.	5
+38	19	cover_meaning1_syn1	unexpected	She used an umbrella to protect herself from the rain.	5
+39	20	cover_meaning1_syn1	expected	The wall was built to cover the garden from the wind.	5
+40	20	cover_meaning1_syn1	unexpected	The wall was built to protect the garden from the wind.	5
+41	21	cover_meaning1_syn2	expected	She used an umbrella to cover herself from the rain.	5
+42	21	cover_meaning1_syn2	unexpected	She used an umbrella to shelter herself from the rain.	5
+43	22	cover_meaning1_syn2	expected	The wall was built to cover the garden from the wind.	5
+44	22	cover_meaning1_syn2	unexpected	The wall was built to shelter the garden from the wind.	5
+45	23	cover_meaning2_syn1	expected	The journalist was sent to cover the election results.	5
+46	23	cover_meaning2_syn1	unexpected	The journalist was sent to report the election results.	5
+47	24	cover_meaning2_syn1	expected	She was asked to cover the conference for the magazine.	4
+48	24	cover_meaning2_syn1	unexpected	She was asked to report the conference for the magazine.	4
+49	25	cover_meaning2_syn2	expected	The journalist was sent to cover the election results.	5
+50	25	cover_meaning2_syn2	unexpected	The journalist was sent to detail the election results.	5
+51	26	cover_meaning2_syn2	expected	She was asked to cover the conference for the magazine.	4
+52	26	cover_meaning2_syn2	unexpected	She was asked to detail the conference for the magazine.	4
+53	27	race_meaning1_syn1	expected	He trained for months to win the race.	7
+54	27	race_meaning1_syn1	unexpected	He trained for months to win the contest	7
+55	28	race_meaning1_syn1	expected	The runners lined up for the start of the race.	9
+56	28	race_meaning1_syn1	unexpected	The runners lined up for the start of the contest	9
+57	29	race_meaning1_syn1	expected	She finished the race just a second behind the winner.	3
+58	29	race_meaning1_syn1	unexpected	She finished the contest just a second behind the winner.	3
+59	30	race_meaning1_syn1	expected	The annual charity race raised thousands of dollars.	3
+60	30	race_meaning1_syn1	unexpected	The annual charity contest raised thousands of dollars.	3
+61	31	race_meaning1_syn1	expected	He entered the race hoping to beat his personal best.	3
+62	31	race_meaning1_syn1	unexpected	He entered the contest hoping to beat his personal best.	3
+63	32	race_meaning1_syn2	expected	He trained for months to win the race.	7
+64	32	race_meaning1_syn2	unexpected	He trained for months to win the competition	7
+65	33	race_meaning1_syn2	expected	The runners lined up for the start of the race.	9
+66	33	race_meaning1_syn2	unexpected	The runners lined up for the start of the competition	9
+67	34	race_meaning1_syn2	expected	She finished the race just a second behind the winner.	3
+68	34	race_meaning1_syn2	unexpected	She finished the competition just a second behind the winner.	3
+69	35	race_meaning1_syn2	expected	The annual charity race raised thousands of dollars.	3
+70	35	race_meaning1_syn2	unexpected	The annual charity competition raised thousands of dollars.	3
+71	36	race_meaning1_syn2	expected	He entered the race hoping to beat his personal best.	3
+72	36	race_meaning1_syn2	unexpected	He entered the competition hoping to beat his personal best.	3
+73	37	race_meaning2_syn1	expected	The census asked respondents to identify their race.	7
+74	37	race_meaning2_syn1	unexpected	The census asked respondents to identify their ethnicity	7
+75	38	race_meaning2_syn1	expected	Discussions about race are important for social understanding.	2
+76	38	race_meaning2_syn1	unexpected	Discussions about ethnicity are important for social understanding.	2
+77	39	race_meaning2_syn1	expected	The study examined how race influences access to education.	4
+78	39	race_meaning2_syn1	unexpected	The study examined how ethnicity influences access to education.	4
+79	40	race_meaning2_syn1	expected	He spoke about his pride in his race and cultural heritage.	7
+80	40	race_meaning2_syn1	unexpected	He spoke about his pride in his ethnicity and cultural heritage.	7
+81	41	race_meaning2_syn2	expected	The census asked respondents to identify their race.	7
+82	41	race_meaning2_syn2	unexpected	The census asked respondents to identify their descent	7
+83	42	race_meaning2_syn2	expected	Discussions about race are important for social understanding.	2
+84	42	race_meaning2_syn2	unexpected	Discussions about descent are important for social understanding.	2
+85	43	race_meaning2_syn2	expected	The study examined how race influences access to education.	4
+86	43	race_meaning2_syn2	unexpected	The study examined how descent influences access to education.	4
+87	44	race_meaning2_syn2	expected	He spoke about his pride in his race and cultural heritage.	7
+88	44	race_meaning2_syn2	unexpected	He spoke about his pride in his descent and cultural heritage.	7
+89	45	party_meaning1_syn1	expected	She has been a loyal member of the Democratic party for years.	9
+90	45	party_meaning1_syn1	unexpected	She has been a loyal member of the Democratic alliance for years.	9
+91	46	party_meaning1_syn1	expected	The new party gained several seats in parliament.	2
+92	46	party_meaning1_syn1	unexpected	The new alliance gained several seats in parliament.	2
+93	47	party_meaning1_syn1	expected	The party announced its new platform on climate change.	1
+94	47	party_meaning1_syn1	unexpected	The alliance announced its new platform on climate change.	1
+95	48	party_meaning1_syn1	expected	He decided to leave his old party and join another one.	6
+96	48	party_meaning1_syn1	unexpected	He decided to leave his old alliance and join another one.	6
+97	49	party_meaning1_syn2	expected	She has been a loyal member of the Democratic party for years.	9
+98	49	party_meaning1_syn2	unexpected	She has been a loyal member of the Democratic affiliation for years.	9
+99	50	party_meaning1_syn2	expected	The new party gained several seats in parliament.	2
+100	50	party_meaning1_syn2	unexpected	The new affiliation gained several seats in parliament.	2
+101	51	party_meaning1_syn2	expected	The party announced its new platform on climate change.	1
+102	51	party_meaning1_syn2	unexpected	The affiliation announced its new platform on climate change.	1
+103	52	party_meaning1_syn2	expected	He decided to leave his old party and join another one.	6
+104	52	party_meaning1_syn2	unexpected	He decided to leave his old affiliation and join another one.	6
+105	53	party_meaning2_syn1	expected	They threw a huge party to celebrate the end of exams.	4
+106	53	party_meaning2_syn1	unexpected	They threw a huge carnival to celebrate the end of exams.	4
+107	54	party_meaning2_syn1	expected	She hosted a surprise party for her best friend.	4
+108	54	party_meaning2_syn1	unexpected	She hosted a surprise carnival for her best friend.	4
+109	55	party_meaning2_syn1	expected	The party lasted late into the night with music and dancing.	1
+110	55	party_meaning2_syn1	unexpected	The carnival lasted late into the night with music and dancing.	1
+111	56	party_meaning2_syn1	expected	We decorated the house for the birthday party.	7
+112	56	party_meaning2_syn1	unexpected	We decorated the house for the birthday carnival	7
+113	57	party_meaning2_syn1	expected	Everyone dressed up for the holiday party.	6
+114	57	party_meaning2_syn1	unexpected	Everyone dressed up for the holiday carnival	6
+115	58	party_meaning2_syn2	expected	They threw a huge party to celebrate the end of exams.	4
+116	58	party_meaning2_syn2	unexpected	They threw a huge event to celebrate the end of exams.	4
+117	59	party_meaning2_syn2	expected	She hosted a surprise party for her best friend.	4
+118	59	party_meaning2_syn2	unexpected	She hosted a surprise event for her best friend.	4
+119	60	party_meaning2_syn2	expected	The party lasted late into the night with music and dancing.	1
+120	60	party_meaning2_syn2	unexpected	The event lasted late into the night with music and dancing.	1
+121	61	party_meaning2_syn2	expected	We decorated the house for the birthday party.	7
+122	61	party_meaning2_syn2	unexpected	We decorated the house for the birthday event	7
+123	62	party_meaning2_syn2	expected	Everyone dressed up for the holiday party.	6
+124	62	party_meaning2_syn2	unexpected	Everyone dressed up for the holiday event	6
+125	63	sweet_meaning1_syn1	expected	That was such a sweet thing to say to your friend.	4
+126	63	sweet_meaning1_syn1	unexpected	That was such a loving thing to say to your friend.	4
+127	64	sweet_meaning1_syn1	expected	He gave her a sweet smile when she walked in.	4
+128	64	sweet_meaning1_syn1	unexpected	He gave her a loving smile when she walked in.	4
+129	65	sweet_meaning1_syn1	expected	She wrote a sweet note to thank her teacher.	3
+130	65	sweet_meaning1_syn1	unexpected	She wrote a loving note to thank her teacher.	3
+131	66	sweet_meaning1_syn1	expected	Their sweet gesture made everyone in the room smile.	1
+132	66	sweet_meaning1_syn1	unexpected	Their loving gesture made everyone in the room smile.	1
+133	67	sweet_meaning1_syn1	expected	It was sweet of you to help carry the groceries.	2
+134	67	sweet_meaning1_syn1	unexpected	It was loving of you to help carry the groceries.	2
+135	68	sweet_meaning1_syn2	expected	That was such a sweet thing to say to your friend.	4
+136	68	sweet_meaning1_syn2	unexpected	That was such a caring thing to say to your friend.	4
+137	69	sweet_meaning1_syn2	expected	He gave her a sweet smile when she walked in.	4
+138	69	sweet_meaning1_syn2	unexpected	He gave her a caring smile when she walked in.	4
+139	70	sweet_meaning1_syn2	expected	She wrote a sweet note to thank her teacher.	3
+140	70	sweet_meaning1_syn2	unexpected	She wrote a caring note to thank her teacher.	3
+141	71	sweet_meaning1_syn2	expected	Their sweet gesture made everyone in the room smile.	1
+142	71	sweet_meaning1_syn2	unexpected	Their caring gesture made everyone in the room smile.	1
+143	72	sweet_meaning1_syn2	expected	It was sweet of you to help carry the groceries.	2
+144	72	sweet_meaning1_syn2	unexpected	It was caring of you to help carry the groceries.	2
+145	73	sweet_meaning2_syn1	expected	The dessert was too sweet for my taste.	4
+146	73	sweet_meaning2_syn1	unexpected	The dessert was too sugary for my taste.	4
+147	74	sweet_meaning2_syn1	expected	She prefers sweet coffee over bitter tea.	2
+148	74	sweet_meaning2_syn1	unexpected	She prefers sugary coffee over bitter tea.	2
+149	75	sweet_meaning2_syn1	expected	The sweet aroma of chocolate filled the kitchen.	1
+150	75	sweet_meaning2_syn1	unexpected	The sugary aroma of chocolate filled the kitchen.	1
+151	76	sweet_meaning2_syn1	expected	He made a sweet sauce to drizzle over the pancakes.	3
+152	76	sweet_meaning2_syn1	unexpected	He made a sugary sauce to drizzle over the pancakes.	3
+153	77	sweet_meaning2_syn1	expected	The fruit was perfectly ripe and sweet.	6
+154	77	sweet_meaning2_syn1	unexpected	The fruit was perfectly ripe and sugary	6
+155	78	sweet_meaning2_syn2	expected	The dessert was too sweet for my taste.	4
+156	78	sweet_meaning2_syn2	unexpected	The dessert was too candied for my taste.	4
+157	79	sweet_meaning2_syn2	expected	She prefers sweet coffee over bitter tea.	2
+158	79	sweet_meaning2_syn2	unexpected	She prefers candied coffee over bitter tea.	2
+159	80	sweet_meaning2_syn2	expected	The sweet aroma of chocolate filled the kitchen.	1
+160	80	sweet_meaning2_syn2	unexpected	The candied aroma of chocolate filled the kitchen.	1
+161	81	sweet_meaning2_syn2	expected	He made a sweet sauce to drizzle over the pancakes.	3
+162	81	sweet_meaning2_syn2	unexpected	He made a candied sauce to drizzle over the pancakes.	3
+163	82	sweet_meaning2_syn2	expected	The fruit was perfectly ripe and sweet.	6
+164	82	sweet_meaning2_syn2	unexpected	The fruit was perfectly ripe and candied	6
+165	83	note_meaning1_syn1	expected	The pianist hit a beautiful note that lingered in the hall.	5
+166	83	note_meaning1_syn1	unexpected	The pianist hit a beautiful tone that lingered in the hall.	5
+167	84	note_meaning1_syn1	expected	She played every note of the song perfectly.	3
+168	84	note_meaning1_syn1	unexpected	She played every tone of the song perfectly.	3
+169	85	note_meaning1_syn1	expected	The violinist held the final note for several seconds.	5
+170	85	note_meaning1_syn1	unexpected	The violinist held the final tone for several seconds.	5
+171	86	note_meaning1_syn1	expected	He missed one note during his solo performance.	3
+172	86	note_meaning1_syn1	unexpected	He missed one tone during his solo performance.	3
+173	87	note_meaning1_syn1	expected	The singer struggled to reach the highest note in the piece.	7
+174	87	note_meaning1_syn1	unexpected	The singer struggled to reach the highest tone in the piece.	7
+175	88	note_meaning1_syn2	expected	The pianist hit a beautiful note that lingered in the hall.	5
+176	88	note_meaning1_syn2	unexpected	The pianist hit a beautiful sound that lingered in the hall.	5
+177	89	note_meaning1_syn2	expected	She played every note of the song perfectly.	3
+178	89	note_meaning1_syn2	unexpected	She played every sound of the song perfectly.	3
+179	90	note_meaning1_syn2	expected	The violinist held the final note for several seconds.	5
+180	90	note_meaning1_syn2	unexpected	The violinist held the final sound for several seconds.	5
+181	91	note_meaning1_syn2	expected	He missed one note during his solo performance.	3
+182	91	note_meaning1_syn2	unexpected	He missed one sound during his solo performance.	3
+183	92	note_meaning1_syn2	expected	The singer struggled to reach the highest note in the piece.	7
+184	92	note_meaning1_syn2	unexpected	The singer struggled to reach the highest sound in the piece.	7
+185	93	note_meaning2_syn1	expected	She left a note on the table to remind him about the meeting.	3
+186	93	note_meaning2_syn1	unexpected	She left a memo on the table to remind him about the meeting.	3
+187	94	note_meaning2_syn1	expected	He wrote a short note to apologize for being late.	4
+188	94	note_meaning2_syn1	unexpected	He wrote a short memo to apologize for being late.	4
+189	95	note_meaning2_syn1	expected	There was a handwritten note waiting for her at the door.	4
+190	95	note_meaning2_syn1	unexpected	There was a handwritten memo waiting for her at the door.	4
+191	96	note_meaning2_syn1	expected	She slipped a note under his office door before leaving.	3
+192	96	note_meaning2_syn1	unexpected	She slipped a memo under his office door before leaving.	3
+193	97	note_meaning2_syn1	expected	He received a note from his teacher about the homework.	3
+194	97	note_meaning2_syn1	unexpected	He received a memo from his teacher about the homework.	3
+195	98	note_meaning2_syn2	expected	She left a note on the table to remind him about the meeting.	3
+196	98	note_meaning2_syn2	unexpected	She left a message on the table to remind him about the meeting.	3
+197	99	note_meaning2_syn2	expected	He wrote a short note to apologize for being late.	4
+198	99	note_meaning2_syn2	unexpected	He wrote a short message to apologize for being late.	4
+199	100	note_meaning2_syn2	expected	There was a handwritten note waiting for her at the door.	4
+200	100	note_meaning2_syn2	unexpected	There was a handwritten message waiting for her at the door.	4
+201	101	note_meaning2_syn2	expected	She slipped a note under his office door before leaving.	3
+202	101	note_meaning2_syn2	unexpected	She slipped a message under his office door before leaving.	3
+203	102	note_meaning2_syn2	expected	He received a note from his teacher about the homework.	3
+204	102	note_meaning2_syn2	unexpected	He received a message from his teacher about the homework.	3
