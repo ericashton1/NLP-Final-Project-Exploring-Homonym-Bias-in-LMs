@@ -1,7 +1,8 @@
 import pandas as pd
 import string
 import numpy as np
-from statsmodels.nonparametric.smoothers_lowess import lowess
+#from statsmodels.nonparametric.smoothers_lowess import lowess
+from pygam import LinearGAM, s
 
 data = {'sentid': [], 'pairid': [], 'sentence': [], 'roi': []}
 numset = ['0,', '1', '2', '3', '4', '5', '6', '7', '8', '9']
@@ -45,25 +46,26 @@ def main():
     log_freqs = np.array(evaluate_df['log_freq']).reshape((-1, 1))
 
 
-    # LOWESS docs: https://www.statsmodels.org/stable/generated/statsmodels.nonparametric.smoothers_lowess.lowess.html
-    loess_fit = lowess(
-        evaluate_df['surp'].values,
-        evaluate_df['log_freq'].values,
-        frac=0.25,   # smoothing parameter
-        it=3,
-        return_sorted=False
-    )
 
-    # Expected surprisal from smoothed frequency–surprisal curve
-    evaluate_df['expected_surp_loess'] = loess_fit
+# Fit GAM
+    X = evaluate_df['log_freq'].values.reshape(-1, 1)
+    y = evaluate_df['surp'].values
+
+    gam = LinearGAM(s(0)).fit(X, y)
+
+# Expected surprisal from GAM smooth
+    expected = gam.predict(X)
+
+    evaluate_df['expected_surp_gam'] = expected
 
     evaluate_df['adjusted_surp'] = (
-        evaluate_df['surp'] - evaluate_df['expected_surp_loess']
+        evaluate_df['surp'] - evaluate_df['expected_surp_gam']
     )
 
     evaluate_df['adjusted_prob'] = np.exp(-evaluate_df['adjusted_surp'])
 
-    evaluate_df.to_csv('results/homonym_minimal_pairs_byword_adjusted.tsv',
+
+    evaluate_df.to_csv('results/homonym_minimal_pairs_byword_adjusted_GAM.tsv',
                        sep='\t', index=False)
 
 if __name__ == "__main__":
